@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yy.live.aoptraining.MainActivity"
+    android:gravity="center">
+    <Button
+        android:id="@+id/btn_constructor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="构造函数aop"/>
+    <Button
+        android:id="@+id/btn_filed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="属性aop"
+        android:layout_marginTop="8dp"/>
+    <Button
+        android:id="@+id/btn_method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="方法aop"
+        android:layout_marginTop="8dp"/>
+    <Button
+        android:id="@+id/btn_permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="权限aop"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
